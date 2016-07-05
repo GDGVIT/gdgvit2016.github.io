@@ -1,0 +1,488 @@
+.no-margin
+{
+  margin: 0 !important;
+}
+.no-padding
+{
+  padding: 0 !important;
+}
+.landing-background
+{
+  background: #192f46;
+  background-image: url(../img/Map.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing-logo-holder
+{
+  background: white;
+  padding: 10%;
+  padding-top: 12%;
+  padding-bottom: 10%;
+  border-radius: 50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.landing-logo
+{
+  width:100%;
+}
+.concentric-circle-holder
+{
+  position: relative;
+  overflow: visible;
+  margin-top: -160vh;
+}
+@media(min-width:1900px)
+{
+  .concentric-circle-holder
+  {
+    margin-top:-155vh;
+    margin-left: -2% !important;
+  }
+}
+@media(min-width:1400px) and (max-width:1800px)
+{
+  .concentric-circle-holder
+  {
+    margin-top: -140vh;
+    margin-left: -15% !important;
+  }
+}
+@media(min-width:1000px) and (max-width:1200px)
+{
+  .concentric-circle-holder
+  {
+    margin-top: -168vh;
+    margin-left: -8% !important;
+  }
+}
+.concentric-circle
+{
+  position: relative;
+  border: 1px solid rgba(110,110,110,0.5);
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+
+#c1
+{
+  height: 30vh;
+  width: 30vh;
+  margin: 15vh;
+}
+
+#c2
+{
+  height: 60vh;
+  width: 60vh;
+  margin: 20vh;
+}
+
+#c3
+{
+  height: 100vh;
+  width: 100vh;
+  margin: 25vh;
+}
+
+#c4
+{
+  height: 150vh;
+  width: 150vh;
+  margin:40vh;
+}
+#c5
+{
+  height: 230vh;
+  width: 230vh;
+  margin: 35vh;
+}
+#c6
+{
+  height: 300vh;
+  width: 300vh;
+}
+.create-wave
+{
+  border: 1px solid rgba(170,170,170,0.65);
+  transition: all 0.3s;
+}
+.pulsate
+{
+  transition: all 0.3s;
+}
+.logo-pulsate
+{
+  transform: scale(1.08);
+  transition: all 0.3s;
+}
+
+
+.landing-brand
+{
+  color: white;
+  font-size:200%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+.subheading
+{
+  margin-top: -50px !important;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+.heading
+{
+  font-size: 229% !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media(min-width:1900px)
+{
+  .landing-text
+  {
+    font-size: 140%;
+  }
+  .custom-button
+  {
+    width: 200px !important;
+    padding: 10px !important;
+  }
+}
+@media(min-width:1400px) and (max-width:1800px)
+{
+  .landing-text
+  {
+    font-size: 110%;
+  }
+  .custom-button
+  {
+    width: 150px !important;
+    padding: 6px !important;
+  }
+}
+.landing-content-holder
+{
+  color: rgb(220,220,220);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 120%;
+  margin-top:-20px;
+}
+.landing-text
+{
+  position: absolute;
+  top: 20vh;
+  z-index: 2;
+}
+.custom-button
+{
+  border: 2px solid white;
+  color: white;
+  width: 150px;
+  padding: 8px;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+
+}
+.custom-button a
+{
+  color: white;
+}
+#VIT
+{
+  padding-left: 20%;
+  margin-left:0px;
+  border-left: 5px solid white;
+}
+
+@media(max-width:600px)
+{
+  .landing-background
+  {
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    overflow:hidden;
+  }
+  .concentric-circle-holder
+  {
+    position: relative;
+    z-index: 1;
+  }
+}
+/* philosophy page begins */
+/**/
+/**/
+/**/
+.philosophy-holder
+{
+  background: #192f46;
+  height: 100vh;
+}
+#philosophy-row
+{
+  margin: 0 !important;
+}
+#philosophy-row .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#philosophy-row .landing-logo
+{
+  width:100%;
+}
+.philosophy
+{
+  padding-top: 4%;
+}
+.philosophy-heading p
+{
+
+  margin: 0;
+  color: white;
+  font-size:170%;
+  border-left: 1px solid #ee8822;
+  border-right: 1px solid #ee8822;
+  text-align: center;
+}
+
+.philosophy-body
+{
+  text-align: center;
+  color: rgb(204,204,204);
+  font-size: 120%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.philosophy-hr
+{
+  margin-left: -50px;
+  color: rgba(204,204,204,0.7);
+}
+.philosophy-img
+{
+  max-width: 100%;
+}
+.philosophy-image-text
+{
+  color: rgba(204,204,204,0.87);
+  font-size: 120%;
+  margin-top: -20px;
+  font-family: 'Lato', sans-serif;
+}
+#philosophy-design
+{
+
+}
+#philosophy-develop
+{
+  margin-left: 10px;
+}
+#philosophy-deploy
+{
+  margin-left: 20px;
+}
+.custom-pull
+{
+  margin-left: -40px !important;
+  font-size: 115%;
+}
+.custom-pull .custom-button
+{
+  border-color:rgba(204,204,204,0.87);
+}
+.custom-pull .custom-button a
+{
+  color:rgba(204,204,204,0.87);
+}
+#philosophy-img-1
+{
+  width: 100%;
+  height: 50vh;
+}
+#philosophy-img-2
+{
+  margin-top: -8px;
+  width: 100%;
+  height:50vh;
+}
+#philosophy-img-3
+{
+  margin-top: -8px;
+  width: 100%;
+  height:50vh;
+
+}
+.image-text
+{
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  color: white;
+  font-size: 180%;
+  text-align: center;
+  display: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+.philosophy-grid-img
+{
+  opacity: 0.68;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.philosophy-img-holder:hover .philosophy-grid-img
+{
+  opacity: 0.17;
+  transition: all 0.2s;
+/*  transform: scale(1.01); */
+}
+.philosophy-img-holder:hover .image-text
+{
+  display: block;
+  transition: all 0.2s;
+}
+.philosophy-img-holder
+{
+  z-index: 2;
+  position: relative;
+}
+
+@media(min-width:1920px)
+{
+  .philosophy-holder
+  {
+    font-size: 150%;
+  }
+  .custom-button-phil
+  {
+    width: 300px !important;
+    padding: 10% !important;
+    margin-left: -50px;
+    margin-top: 50px !important;
+  }
+  .philosophy
+  {
+    padding-top: 8%;
+  }
+  .philosophy-body
+  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+@media(min-width:1000px) and (max-width:1200px)
+{
+  .philosophy-holder
+  {
+    font-size: 75%;
+  }
+}
+@media(min-width:1400px) and (max-width:1800px)
+{
+  .philosophy-holder
+  {
+    font-size: 110%;
+  }
+  .custom-button-phil
+  {
+    width: 200px !important;
+    margin-left: -20px;
+  }
+}
+
+
+.hide-on-small
+{
+  display: block;
+}
+
+@media(max-width:600px)
+{
+  .hide-on-small
+  {
+    display: none;
+  }
+  #philosophy-design
+  {
+    margin-left: 0px;
+  }
+  #philosophy-deploy
+  {
+    margin-left: 0px;
+  }
+  #philosophy-develop
+  {
+    margin-left: 0;
+  }
+  .philosophy-holder
+  {
+    height:auto;
+  }
+  #phil-mobile
+  {
+    height: 100vh;
+  }
+  .philosophy-body
+  {
+    margin-top: 10px;
+  }
+  .philosophy-heading
+  {
+    margin-top: 10px;
+  }
+  .philosophy-img-holder
+  {
+    margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+  }
+  #philosophy-img-2
+  {
+    margin-top: -15px;
+  }
+  #philosophy-img-3
+  {
+    margin-top: -15px;
+  }
+  .custom-button-phil
+  {
+    margin-left: 10px;
+  }
+
+}
+@media(max-width:330px)
+{
+  #philosophy-ilustr-text
+  {
+    margin-left: -13px;
+  }
+}
+/*philosophy ends */

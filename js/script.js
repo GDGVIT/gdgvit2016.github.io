@@ -2,11 +2,13 @@ $(document).ready(function()
 {
 
   //code for smooth scroll
-  /*$("#button").click(function() {
+  $(".concentric-circle-holder").click(function() {
       $('html, body').animate({
-          scrollTop: $("#x").offset().top
+          scrollTop: $(".landing-text-mobile").offset().top-70
       }, 1000);
-    });*/
+    });
+
+
   pulsate();
   setTimeout('wave('+wave_count1+')',1000);
   //Uncomment for second wave

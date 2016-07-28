@@ -1,10 +1,9 @@
 <!Doctype HTML>
-<HTML>
+<HTML style="overflow-x:hidden;">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="frameworks/materialize/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/landing.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
@@ -12,8 +11,8 @@
   	<link rel="stylesheet" href="css/what_we_do_style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
-  <!--  <link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap.min.css">
-    <script type="text/javascript" src="frameworks/bootstrap/js/bootstrap.min.js"></script>  -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script type="text/javascript" src="frameworks/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="frameworks/jquery/jqueryUI.js"></script>
     <script type="text/javascript" src="frameworks/materialize/js/materialize.min.js"></script>
@@ -27,7 +26,8 @@
 <body>
 <div class="container-fluid landing-background">
   <div class="row">
-    <div class="col m6 l6 push-m1 push-l1 landing-text hide-on-small">
+
+    <div class="col m6 l6 s12 push-m1 push-l1 landing-text hide-on-small-only">
       <div class="row landing-heading-holder">
         <div class="col m6 l6">
           <div class="landing-brand">
@@ -48,7 +48,7 @@
         <div class="col m10 l10">
           <div class="landing-content">
             Google Developers Groups is an initiative by Google to support
-developers who are interested in Google's developer technology. We take many forms - from just a few people getting together to develop and test new products to large gatherings with demos and tech talks.
+              developers who are interested in Google's developer technology. We take many forms - from just a few people getting together to develop and test new products to large gatherings with demos and tech talks.
           </div>
         </div>
       </div>
@@ -61,9 +61,8 @@ developers who are interested in Google's developer technology. We take many for
       </div>
     </div>
 
-    <div class="col m12 l12 concentric-circle-holder">
-
-        <div class="concentric-circle" id="c6">
+    <div class="col m12 l12 s12 concentric-circle-holder">
+          <div class="concentric-circle" id="c6">
           <div class="concentric-circle" id="c5">
             <div class="concentric-circle" id="c4">
               <div class="concentric-circle" id="c3">
@@ -78,8 +77,42 @@ developers who are interested in Google's developer technology. We take many for
            </div>
           </div>
        </div>
-
     </div>
+
+    <div class="col m6 l6 s12 push-m1 push-l1 landing-text-mobile hide-on-med-and-up">
+      <div class="row landing-heading-holder">
+        <div class="col m6 l6">
+          <div class="landing-brand">
+            <p>
+          <span class='heading'>  GOOGLE</span><p class="subheading">DEVELOPERS GROUP</p>
+            </p>
+          </div>
+        </div>
+        <div class="col m4 l4" >
+          <div class="landing-brand"  id="VIT">
+            <p>
+          <span class="heading">VIT</span><p class="subheading" style="padding-left:0%;">VELLORE</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='row landing-content-holder'>
+        <div class="col m10 l10">
+          <div class="landing-content">
+            Google Developers Groups is an initiative by Google to support
+              developers who are interested in Google's developer technology. We take many forms - from just a few people getting together to develop and test new products to large gatherings with demos and tech talks.
+          </div>
+        </div>
+      </div>
+      <div class="row landing-button">
+        <div class="col m2 l2">
+          <div class="custom-button">
+            <a>Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -442,108 +475,111 @@ developers who are interested in Google's developer technology. We take many for
       </div>
     </div>
   </div>
+<div class="container-fluid">
+  <div class="team row">
+    <div class="col m10 l10 s12 push-m1 push-l1">
+      <div>
+    <h1 class="tl"><p style="margin-left:50px;margin-right:50px;">Board</p></h1>
+    </div>
+    <div class="gdg">
+      <img src="img/gdg.jpg" class="img-circle" width="50" height="50"/>
+      </div>
 
- <div class="team row">
-   <div class="col m10 l10 push-m1 push-l1">
-     <div>
-   <h1 class="tl"><p style="margin-left:50px;margin-right:50px;">Board</p></h1>
-   </div>
-   <div class="gdg">
-     <img src="img/gdg.jpg" class="img-circle" width="50" height="50"/>
-     </div>
+    <div class="row">
 
-   <div class="row">
+    <div class="col m2 l2 s12"><img src="img/shamvil.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Shamvil Raza</h3>
+    <h5>President,Founder</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/shubho.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Shubhodeep</h3>
+    <h5>Co Vice President(Technical)</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+     <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/shreyas.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Shreyas Saurabh</h3>
+    <h5>Vice President(Management)</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
 
-   <div class="col m2 l2 s12"><img src="img/shamvil.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Shamvil Raza</h3>
-   <h5>President,Founder</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/shubho.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Shubhodeep</h3>
-   <h5>Co Vice President(Technical)</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+
+    <div class="row">
+
+    <div class="col m2 l2 s12"><img src="img/prince.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Prince Bansal</h3>
+    <h5>Co Vice President(Technical)</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/nikhil.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Nikhil Kasukurthi</h3>
+    <h5>Marketing Lead</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
     <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/shreyas.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Shreyas Saurabh</h3>
-   <h5>Vice President(Management)</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/vignesh.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>S Vignesh</h3>
+    <h5>Operations Lead</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/be.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
 
-   </div>
-
-   <div class="row">
-
-   <div class="col m2 l2 s12"><img src="img/prince.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Prince Bansal</h3>
-   <h5>Co Vice President(Technical)</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/nikhil.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Nikhil Kasukurthi</h3>
-   <h5>Marketing Lead</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/vignesh.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>S Vignesh</h3>
-   <h5>Operations Lead</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/be.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-
-   </div>
+    </div>
 
 
-   <div class="row">
-   <div class="col m2 l2 s12"><img src="img/ashwini.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Ashwini Purohit</h3>
-   <h5>Project Lead</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/shiv.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>Shiv Bidani</h3>
-   <h5>Finance Head</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
-   <div class="col m2 l2 s12"><img src="img/thiyagaraj.jpg" class="img-responsive"/></div>
-   <div class="col m2 l2 s12"><h3>T Thiyagaraj</h3>
-   <h5>Design Lead</h5>
-   <div class="s">
-   <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
-   <a href="#"><img src="img/be.png" class="img-circle" width="25" height="25"/></a>
-   </div>
-   </div>
+    <div class="row">
+    <div class="col m2 l2 s12"><img src="img/ashwini.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Ashwini Purohit</h3>
+    <h5>Project Lead</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/shiv.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>Shiv Bidani</h3>
+    <h5>Finance Head</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
+    <div class="col m2 l2 s12"><img src="img/thiyagaraj.jpg" class="img-responsive"/></div>
+    <div class="col m2 l2 s12"><h3>T Thiyagaraj</h3>
+    <h5>Design Lead</h5>
+    <div class="s">
+    <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
+    <a href="#"><img src="img/be.png" class="img-circle" width="25" height="25"/></a>
+    </div>
+    </div>
 
-   </div>
+    </div>
+  </div>
  </div>
 </div>
+
+
 
 <script type="text/javascript">
   $(document).ready(function () {
@@ -552,7 +588,6 @@ developers who are interested in Google's developer technology. We take many for
    $(".skill-cards").click(function(){
     $(this).toggleClass("gdg-blue");
     $(this).find('img').toggle();
-    console.log("changed");
   $(this).find($(".card-title")).toggleClass("white-color");
     $(".skill-cards").not(this).toggleClass("none");
   if($('.slider').is(':visible')){

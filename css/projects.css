@@ -15,7 +15,7 @@
 {
   margin: 0 !important;
 }
-#project-row .landing-logo-holder
+#project-row .landing-logo-holder, .project-clicked .landing-logo-holder
 {
   position: absolute;
   background: white;
@@ -31,10 +31,11 @@
   z-index: 10;
 
 }
-#project-row .landing-logo
+#project-row .landing-logo, .project-clicked .landing-logo
 {
   width:100%;
 }
+
 .project
 {
   padding-top: 0%;
@@ -110,4 +111,108 @@
   {
     font-size: 130%;
   }
+}
+.project-clicked
+{
+  position: relative;
+}
+.selected-project-back
+{
+  position: absolute;
+  background: white;
+  padding:0.8%;
+  padding-top:0.8%;
+  padding-bottom: 0.2%;
+  border-radius: 100%;
+  margin-top: 20px;
+  right: 110px;
+  z-index: 10;
+  width: 4.5%;
+  cursor: pointer;
+}
+.project-skill-name
+{
+  display: none;
+}
+.select-project-image-holder img
+{
+  width: 100%;
+  height: 100vh;
+}
+.project-skill-holder
+{
+	box-shadow: 5px 0 5px -5px rgb(20,20,20);
+  opacity: 1;
+  height: 100vh;
+  width: 90%;
+  z-index: 10 !important;
+  transition: 0.2s all;
+}
+.project-skill-img
+{
+width:50px;
+margin-left: 8px;
+margin-top:6vh;
+opacity: 0.4;
+transition: 0.2s all;
+}
+/*.project-skill-holder:hover
+{
+  width: 300%;
+  transition: 0.2s all;
+}*/
+
+.project-skill-img:hover
+{
+  opacity: 0.9;
+  transition: 0.2s all;
+}
+.project-skill-img:hover .project-skill-name
+{
+  display: block;
+}
+.clicked-project-heading
+{
+  font-size: 300%;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+.project-lead
+{
+  font-size: 130%;
+  color: white;
+  margin-top: 15px;
+}
+.project-desc
+{
+  font-size: 130%;
+  color: white;
+}
+.project-resources-holder .resources
+{
+  color: white;
+  font-size: 130%;
+}
+.resources .resources-button
+{
+ color: #192f46;
+ font-weight: bold;
+ outline: none;
+ background: white;
+ border: none;
+ border-radius: 8px;
+ padding: 5px;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-left: 20px;
+}
+.project-clicked-data
+{
+  margin-top: 15vh;
+  z-index: 1 !important;
+}
+.project-clicked-data p
+{
+  z-index: 1 !important;
 }

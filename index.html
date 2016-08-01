@@ -9,10 +9,10 @@
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/team.css">
   	<link rel="stylesheet" href="css/what_we_do_style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<!--    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+-->
     <script type="text/javascript" src="frameworks/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="frameworks/jquery/jqueryUI.js"></script>
     <script type="text/javascript" src="frameworks/materialize/js/materialize.min.js"></script>
@@ -412,7 +412,23 @@
   </div>
 
 
+<script>
+  $(document).ready(function()
+  {
+      $(".project-clicked").hide();
 
+      $(".project-grid-img-holder").on('click',function()
+      {
+          $(".project-clicked").show();
+          $("#project-row").hide();
+      });
+      $(".selected-project-back").on("click",function()
+      {
+        $(".project-clicked").hide();
+        $("#project-row").show();
+      });
+  });
+</script>
   <div class="container-fluid projects-container">
     <div class="row" id="project-row">
       <div class="landing-logo-holder hide-on-small">
@@ -474,6 +490,67 @@
         </div>
       </div>
     </div>
+
+    <div class="project-clicked">
+      <div class="landing-logo-holder hide-on-small">
+        <img src="img/gdg.png" class="landing-logo">
+      </div>
+      <div class="selected-project-back">
+        <img src="img/back.png" class="landing-logo">
+      </div>
+      <div class="row">
+        <div class="col m4 l4" style="padding-left:0;">
+          <div class="select-project-image-holder">
+            <img src="img/project-clicked.png">
+          </div>
+        </div>
+        <div class="col m1 l1">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span><br>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png"><br>
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png"><br>
+            <img id="go-img" class="project-skill-img" src="img/go.png"><br>
+            <img id="python-img" class="project-skill-img" src="img/python.png"><br>
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png"><br>
+          </div>
+        </div>
+
+      <div class="col m6 l6 push-m1">
+        <div class="project-clicked-data">
+        <div class="project-title-holder">
+          <p class="clicked-project-heading">
+            BroSource
+          </p>
+        </div>
+        <div class="project-lead-holder">
+          <p class="project-lead">
+            Project Leads - Ashwini Purohit , Rishi Raj
+          </p>
+        </div>
+        <div class="project-desc-holder">
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est
+id lacus consequat eleifend. Maecenas nec faucibus nunc. Nulla ac sapien
+sed erat luctus volutpat sit amet at purus. Nullam sed volutpat urna, non
+faucibus mi. Proin a diam sapien. Vestibulum condimentum odio ut nisi
+tempor ornare. Vestibulum ultricies nisi vitae lectus fermentum, in finibus
+ex gravida.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="project-resources-holder">
+          <div class="resources">
+            Resources
+            <button class="resources-button">Github</button>
+            <button class="resources-button">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
   </div>
 <div class="container-fluid">
   <div class="team row">

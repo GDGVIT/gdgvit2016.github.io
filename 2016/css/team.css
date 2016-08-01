@@ -1,0 +1,57 @@
+@media only screen and (max-width: 320px) {
+
+ .team { font-size: 60%%; }
+
+
+}
+.team{
+  height: 100vh;
+  padding-top: 30px;
+}
+.team .row{
+  margin-bottom: 0;
+}
+.team .tl{
+ margin-left:50px;
+   margin-right:1100px;
+   border-left:2px solid;
+   border-right:2px solid;
+   border-color:orange;
+   border-height:5px;
+   overflow:none;
+   font-size: 220%;
+}
+.team h3{
+ text-align:center;
+ color:black;
+ font-size:150%;
+}
+.team h5{
+text-align:center;
+color:gray;
+margin-top:1px;
+font-size: 100%;
+
+}
+.team .s{
+text-align:center;
+}
+.team a{
+margin-right:10px;
+}
+.team .gdg{
+position: absolute;
+  top: 10px;
+  right: 5px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.img-circle
+{
+  border-radius:50%;
+}
+.img-responsive
+{
+  display:block;max-width:100%;height:auto;
+}

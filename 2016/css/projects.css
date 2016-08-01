@@ -1,0 +1,113 @@
+.projects-container
+{
+  margin-top: -1px;
+  background: #192f46;
+  height: 100vh;
+}
+
+
+
+.project
+{
+  padding-top: 2%;
+}
+#philosophy-row
+{
+  margin: 0 !important;
+}
+#project-row .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#project-row .landing-logo
+{
+  width:100%;
+}
+.project
+{
+  padding-top: 0%;
+  margin-top: 30px;
+  padding-bottom: 4%;
+}
+
+.project-heading p
+{
+
+  margin: 0;
+  color: white;
+  font-size:170%;
+  border-left: 1px solid #ee8822;
+  border-right: 1px solid #ee8822;
+  text-align: center;
+}
+
+.project-grid
+{
+  position: absolute;
+}
+.project-grid .col
+{
+  margin: 0;
+  padding: 0;
+}
+.project-grid .row
+{
+  margin: 0;
+  padding: 0;
+}
+.project-grid-img
+{
+  height: 41vh;
+  width: 100%;
+  margin-bottom: -5.2px;
+  opacity: 0.88;
+}
+.project-grid-img-holder
+{
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+.project-img-text
+{
+  top:40%;
+  left:35%;
+  display: none;
+  position: absolute;
+  color: white;
+  font-size: 180%;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+.project-grid-img-holder:hover .project-grid-img
+{
+    transition: all 0.2s;
+    opacity: 0.12;
+}
+.project-grid-img-holder:hover .project-img-text
+{
+  display: block;
+}
+
+@media(min-width:1900px)
+{
+  .project-heading p
+  {
+    font-size: 130%;
+  }
+}

@@ -9,17 +9,22 @@
   padding-top: 30px;
 }
 .team .row{
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  width: 100% !important;
 }
 .team .tl{
- margin-left:50px;
-   margin-right:1100px;
-   border-left:2px solid;
-   border-right:2px solid;
-   border-color:orange;
-   border-height:5px;
+
    overflow:none;
    font-size: 220%;
+    margin-right: 80%;
+  margin-left: 1%;
+   border-left: 3px solid #ee8822;
+  border-right: 3px solid #ee8822;
+}
+@media(max-width: 700px){
+  .team .tl{
+    margin-right: 40%;
+  }
 }
 .team h3{
  text-align:center;
@@ -54,4 +59,8 @@ position: absolute;
 .img-responsive
 {
   display:block;max-width:100%;height:auto;
+  border-radius: 1%;
+}
+.full-size{
+  width: 100% !important;
 }

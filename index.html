@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/team.css">
   	<link rel="stylesheet" href="css/what_we_do_style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact-us.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -228,6 +230,7 @@
   							<img src="img/web-development.png" class="what-we-do-image">
   							<img src="img/web-development-1.png" class="what-we-do-image" style="display:none;">
   							<br>
+  							<br>
   							<span class="card-title">Web Developement</span>
   						</div>
   					</div>
@@ -237,6 +240,7 @@
   						<div class="card-content  center-align">
   							<img src="img/web-design.png" class="what-we-do-image">
   							<img src="img/web-design-1.png" class="what-we-do-image" style="display:none;">
+  							<br>
   							<br>
   							<span class="card-title">Web Designing</span>
   						</div>
@@ -248,6 +252,7 @@
   							<img src="img/full-screen.png" class="what-we-do-image">
   							<img src="img/full-screen-1.png" class="what-we-do-image" style="display:none;">
   							<br>
+  							<br>
   							<span class="card-title">UI/UX</span>
   						</div>
   					</div>
@@ -257,6 +262,7 @@
   						<div class="card-content  center-align">
   							<img src="img/android-logo.png" class="what-we-do-image">
   							<img src="img/android-logo-1.png" class="what-we-do-image" style="display:none;">
+  							<br>
   							<br>
   							<span class="card-title ">Android</span>
   						</div>
@@ -268,6 +274,7 @@
   							<img src="img/design-button-of-curved-and-straight-lines.png" class="what-we-do-image">
   							<img src="img/design-button-of-curved-and-straight-lines-1.png" class="what-we-do-image" style="display:none;">
   							<br>
+  							<br>
   							<span class="card-title">Graphic Designing</span>
   						</div>
   					</div>
@@ -277,6 +284,7 @@
   						<div class="card-content  center-align">
   							<img src="img/traffic-analyze.png" class="what-we-do-image">
   							<img src="img/traffic-analyze-1.png" class="what-we-do-image" style="display:none;">
+  							<br>
   							<br>
   							<span class="card-title">Digital Marketing</span>
   						</div>
@@ -288,6 +296,7 @@
   							<img src="img/microchip.png" class="what-we-do-image">
   							<img src="img/microchip-1.png" class="what-we-do-image" style="display:none;">
   							<br>
+  							<br>
   							<span class="card-title">Hardware</span>
   						</div>
   					</div>
@@ -297,6 +306,7 @@
   						<div class="card-content  center-align">
   							<img src="img/scheme.png" class="what-we-do-image">
   							<img src="img/scheme-1.png" class="what-we-do-image" style="display:none;">
+  							<br>
   							<br>
   							<span class="card-title">Entrepreneurship</span>
   						</div>
@@ -679,13 +689,108 @@ ex gravida.
   </div>
  </div>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx8cR_bOJb5vsch8tYVqqLsegEoESmNzk"></script>
+    <script>
+      // In the following example, markers appear when the user clicks on the map.
+      // Each marker is labeled with a single alphabetical character.
 
+      var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      var labelIndex = 0;
 
+      function initialize() {
+        var VIT = { lat:  12.9681 , lng: 79.1561};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: VIT
+        });
 
+        // This event listener calls addMarker() when the map is clicked.
+        // google.maps.event.addListener(map, 'click', function(event) {
+        //   addMarker(event.latLng, map);
+        // });
+
+        // Add a marker at the center of the map.
+        addMarker(VIT, map);
+      }
+
+      // Adds a marker to the map.
+      function addMarker(location, map) {
+        // Add the marker at the clicked location, and add the next-available label
+        // from the array of alphabetical characters.
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+ 	<div class="row map-row white-text">
+    <div id="map" class="col m9 s12"></div>
+    <div class="col m3 s12 connect"> 
+    	<h5 class="contact-us-heading"><b>CONNECT</b></h5>	
+    	<br>
+    	<div class="row ">
+    	<div class=" col m3 s3">
+    		<a href="#"><i class="fa fa-facebook-official fa-2x link-icons" aria-hidden="true"></i></a>
+    	</div>
+    	<div class=" col m3 s3">
+    		<a href="#"><i class="fa fa-google-plus fa-2x link-icons" aria-hidden="true"></i></a>
+    	</div>
+    	<div class=" col m3 s3">
+    		<a href="#"><i class="fa fa-github fa-2x link-icons" aria-hidden="true"></i></a>
+    	</div>
+    	<div class=" col m3 s3">
+    		<a href="#"><i class="fa fa-linkedin fa-2x link-icons" aria-hidden="true"></i></a>
+    	</div>
+    	</div>
+    	<br>
+    	<form class="m12">
+    		<div class="row">
+    		    <div class="input-field col m12 s12">
+          		<input  id="first_name" type="text" class="validate">
+          		<label for="first_name">FIRST NAME</label>
+        		</div>
+    		</div>
+    		<div class="row">
+    		    <div class="input-field col m12 s12">
+          			<input id="last_name" type="text" class="validate">
+          			<label for="last_name">LAST NAME</label>
+        		</div>
+    		</div>
+    		 <div class="row">
+    		    <div class="input-field col m12 s12">
+          			<input id="email" type="email" class="validate">
+          			<label for="email">EMAIL</label>
+        		</div>
+    		</div>
+    		<div class="row">
+    		    <div class="input-field col m12 s12">
+          			<textarea id="textarea1" class="materialize-textarea"></textarea>
+          			<label for="textarea1">MESSAGE</label>
+        		</div>
+    		</div>
+    		<div class="row">
+  				<button class="btn waves-effect waves-light" type="submit" name="action"><b>Submit</b>
+  				</button>
+    		</div>
+    	</form>
+    </div>
+    </div>
 <script type="text/javascript">
   $(document).ready(function () {
     $('.slider').slider({full_width: true});
   });
+  $(".link-icons").hover(
+  		function(){
+  			$(this).css("opacity",1);
+  		},
+  		function(){
+  			$(this).css("opacity",0.3);
+
+  		}	
+
+  );
    $(".skill-cards").click(function(){
     $(this).toggleClass("gdg-blue");
     $(this).find('img').toggle();
@@ -707,7 +812,34 @@ ex gravida.
   });
 
 </script>
-
-
+<div class="footer container-fluid card-container-fluid-custom white-text">
+  <div class="row footer-row">
+    <div class="col m4 col s1"></div>
+    <div class="col m4 col l4 col s10">
+      <div class="row">
+        <div class="col m3 col l3 col s3">
+          <div class="footer-tabs"><a href="#">Privacy</a></div>
+        </div>
+        <div class="col m6 col l6 col s6">
+          <div class="footer-tabs"><a href="#">Terms & Conditions</a></div>
+        </div>
+        <div class="col m3 col l3 col s3">
+          <div class="footer-tabs"><a href="#">About Us</a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-align">
+          <div class="footer-img"><img src="img/gdg.png"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-align">
+          <div class="footer-credits white-text"><p><span>Created By</span><br>Google Developers Group<br>VIT Vellore</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-1"></div>
+  </div>
+</div>
 </body>
 </HTML>

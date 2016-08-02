@@ -125,3 +125,24 @@
 		font-size:190% !important;
 	}
 }
+#what_we_do_row .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+}
+#what_we_do_row .landing-logo
+{
+  width:100%;
+}

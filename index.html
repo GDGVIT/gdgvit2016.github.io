@@ -9,10 +9,10 @@
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/team.css">
   	<link rel="stylesheet" href="css/what_we_do_style.css">
-<!--    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
--->
+
     <script type="text/javascript" src="frameworks/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="frameworks/jquery/jqueryUI.js"></script>
     <script type="text/javascript" src="frameworks/materialize/js/materialize.min.js"></script>
@@ -21,9 +21,23 @@
   </head>
 
   <style>
-
-</style>
+    .landing-logo
+    {
+      cursor: pointer;
+    }
+  </style>
 <body>
+
+<div class="side-navbar">
+  <ul class="side-nav" id="mobile-demo">
+        <li><a id="home-nav">Home</a></li>
+        <li><a id="philosophy-nav">Philosophy</a></li>
+        <li><a id="skill-nav">Skills</a></li>
+        <li><a id="project-nav">Projects</a></li>
+        <li><a id="board-nav">Board</a></li>
+  </ul>
+</div>
+
 <div class="container-fluid landing-background">
   <div class="row">
 
@@ -52,13 +66,6 @@
           </div>
         </div>
       </div>
-      <div class="row landing-button">
-        <div class="col m2 l2">
-          <div class="custom-button">
-            <a>Know More</a>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="col m12 l12 s12 concentric-circle-holder">
@@ -69,7 +76,9 @@
                 <div class="concentric-circle" id="c2">
                   <div class="concentric-circle" id="c1">
                     <div class="landing-logo-holder pulsate" id="button">
+                      <a href="#" data-activates="mobile-demo" class="button-collapse">
                       <img src="img/gdg.png" class="landing-logo">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -119,9 +128,11 @@
 
   <div class="container-fluid philosophy-holder">
     <div class="row" id="philosophy-row">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
       <div class="landing-logo-holder hide-on-small">
         <img src="img/gdg.png" class="landing-logo">
       </div>
+      </a>
       <div class="col m6 l6 s12" id="phil-mobile" style="z-index:2;">
         <div class="row philosophy">
           <div class="col m4 l4 s8 push-s2 push-m1 push-l1">
@@ -204,6 +215,11 @@
 
   <div class="container-fluid">
   	<div class="row" id="what_we_do_row">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      <div class="landing-logo-holder hide-on-small">
+        <img src="img/gdg.png" class="landing-logo">
+      </div>
+      </a>
   		<div class="col m12 l12">
   			<div class="row heading">
   			<div class="col m5 l3 s12">
@@ -431,9 +447,11 @@
 </script>
   <div class="container-fluid projects-container">
     <div class="row" id="project-row">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
       <div class="landing-logo-holder hide-on-small">
         <img src="img/gdg.png" class="landing-logo">
       </div>
+      </a>
       <div class="col m6 l6 s12" style="z-index:2;">
         <div class="row project">
           <div class="col m4 l4 s8 push-s2 push-m1 push-l1">
@@ -492,9 +510,11 @@
     </div>
 
     <div class="project-clicked">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
       <div class="landing-logo-holder hide-on-small">
         <img src="img/gdg.png" class="landing-logo">
       </div>
+      </a>
       <div class="selected-project-back">
         <img src="img/back.png" class="landing-logo">
       </div>
@@ -554,15 +574,15 @@ ex gravida.
   </div>
 <div class="container-fluid">
   <div class="team row">
+    <a href="#" data-activates="mobile-demo" class="button-collapse">
+    <div class="landing-logo-holder hide-on-small">
+      <img src="img/gdg.png" class="landing-logo">
+    </div>
+    </a>
     <div class="col m10 l10 s12 full-size">
       <div>
-    <h1 class="tl center-align"><p style="margin-left:50px;margin-right:50px;">Board</p></h1>
+    <h1 class="tl center-align"><p style="margin-left:50px;margin-right:50px;font-size:90%;">Board</p></h1>
     </div>
-    <div class="col m2 l2">
-    	<div class="gdg">
-      <img src="img/gdg.jpg" class="img-circle" width="50" height="50"/>
-      </div>
-      </div>
 
     <div class="row">
     <div class="col m2 l2 s12"><img src="img/shamvil.jpg" class="img-responsive"/></div>
@@ -576,7 +596,7 @@ ex gravida.
     <div class="col m2 l2 s12"><img src="img/shubho.jpg" class="img-responsive"/></div>
     <div class="col m2 l2 s12"><h3>Shubhodeep</h3>
     <h5>Co Vice President(Technical)</h5>
-    <div class="s">%;
+    <div class="s">
     <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
     <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
      <a href="#"><img src="img/git.png" class="img-circle" width="25" height="25"/></a>

@@ -8,6 +8,43 @@ $(document).ready(function()
       }, 1000);
     });
 
+    $('#home-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $(".landing-background").offset().top
+      }, 700);
+    });
+
+    $('#philosophy-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $("#philosophy-row").offset().top
+      }, 700);
+    });
+
+    $('#skill-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $("#what_we_do_row").offset().top
+      }, 700);
+    });
+
+    $('#project-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $(".projects-container").offset().top
+      }, 700);
+    });
+
+    $('#board-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $(".team").offset().top
+      }, 700);
+    });
+
+    $(".button-collapse").sideNav(); //For the side nav
+
 
   pulsate();
   setTimeout('wave('+wave_count1+')',1000);

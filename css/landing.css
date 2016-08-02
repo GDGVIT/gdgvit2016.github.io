@@ -594,3 +594,23 @@
   }
 }
 /*philosophy ends */
+
+
+/*Misc Code*/
+.side-nav
+{
+  padding-top: 20px;
+}
+.side-nav li a
+{
+  color: rgb(1,143,229);
+  font-size: 120%;
+}
+.side-nav li
+{
+  cursor: pointer;
+}
+.side-nav li:hover
+{
+  background: rgb(245,245,245);
+}

@@ -216,3 +216,34 @@ transition: 0.2s all;
 {
   z-index: 1 !important;
 }
+@media(min-width:1920px)
+{
+  .clicked-project-heading
+  {
+    font-size: 350%;
+  }
+  .project-lead
+  {
+    font-size: 170%;
+  }
+  .project-desc
+  {
+    font-size: 170%;
+  }
+  .project-resources-holder .resources
+  {
+    font-size: 170%;
+  }
+  .project-skill-img
+  {
+    width: 70px;
+  }
+  .selected-project-back
+  {
+    right: 130px;
+  }
+  .project-heading p
+  {
+    font-size: 300%;
+  }
+}

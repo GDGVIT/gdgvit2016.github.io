@@ -11,6 +11,11 @@
      .map-row{
      	height: 100%;
      }
+     @media (max-width: 750px){
+      .map-row{
+        height: 130%;
+      }
+     }
      .connect{
       background-color: #192f46;
       height: 100%;
@@ -55,45 +60,16 @@
     }
     .btn{
         background-color: #039be5;
-    }
-    
+     }   
+    .footer{
+      margin-right: 0% !important;
+      margin-left: 0% !important;
 
-.card-container-fluid-custom{
-  margin: 0;
-  margin-right: -20px;
-  padding: 0;
-  margin-top: 17.5%;
-}
-.footer-row
-{
-  padding-top: 2%;
-  width: 100%;
-}
-.footer-tabs a
-{
-  text-decoration: none;
-  color: white;
-  font-size: 110%;
-}
-.footer-img
-{
-  margin-top: 20px;
-}
-.footer-img img
-{
-  height: 80px;
-  width: auto;
-}
-.footer-credits
-{
-  color: white;
-}
-/*.footer-credits span
-{
-  color: rgb(117,126,131);
-}*/
-.footer
-{
-  background: #333333;
-  height:20%;
-}
+    }
+    .footer .row{
+      margin-bottom: 0px !important;
+    }
+    .footer img{
+      margin-top: 20%;
+      margin-bottom: 20%;
+    }

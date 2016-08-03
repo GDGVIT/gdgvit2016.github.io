@@ -46,11 +46,12 @@
 	background-color: #018fe5 !important;
 }
 .skills{
-	margin-right: 15%;
-	margin-left: 15%;
-	border-left: 3px solid #ee8822;
-	border-right: 3px solid #ee8822;
 
+	margin: 0;
+  	font-size:170%;
+  	border-left: 3px solid #ee8822;
+  	border-right: 3px solid #ee8822;
+  	text-align: center;
 }
 .card-title{
 	font-size: 36px !important;
@@ -145,4 +146,10 @@
 #what_we_do_row .landing-logo
 {
   width:100%;
+}
+@media(min-width: 1000px)
+{
+.skills-heading{
+	margin-left: 5% !important;
+}
 }

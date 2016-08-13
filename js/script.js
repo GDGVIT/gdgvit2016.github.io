@@ -59,7 +59,7 @@ function pulsate()
   $('.pulsate').removeClass("logo-pulsate").delay(400);
   $('.pulsate').addClass( "logo-pulsate", function()
   {
-    setTimeout(pulsate,800);
+    setTimeout(pulsate,770);
   });
 }
 

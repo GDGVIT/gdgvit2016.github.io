@@ -827,7 +827,13 @@ ex gravida.
   		}
 
   );
+  $(".skill-cards").hover(function(){
+  	$(this).toggleClass("gdg-blue");
+  	$(this).find('img').toggle();
+  	$(this).find($(".card-title")).toggleClass("white-color");
+  });
    $(".skill-cards").click(function(){
+   	
     $(this).toggleClass("gdg-blue");
     $(this).find('img').toggle();
   $(this).find($(".card-title")).toggleClass("white-color");

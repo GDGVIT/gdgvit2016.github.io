@@ -1,9 +1,4 @@
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
 
-      }
       #map {
         height: 100%;
         width: 75%;
@@ -62,19 +57,14 @@
     .btn{
         background-color: #039be5;
      }
-    .footer{
-      padding-top: 6%;
-      margin-right: 0% !important;
-      margin-left: 0% !important;
 
-    }
-    .footer .row{
-      margin-bottom: 0px !important;
-    }
-    .footer img{
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
+     .page-footer
+     {
+       color:white;
+       position:relative;
+       background:rgb(25,47,70);
+       bottom:0;
+     }
     .contact-us-heading{
       margin-bottom: 5%;
     }

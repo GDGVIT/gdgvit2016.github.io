@@ -43,7 +43,31 @@ $(document).ready(function()
       }, 700);
     });
 
-    $(".button-collapse").sideNav(); //For the side nav
+    $('#contact-nav').click(function()
+    {
+      $('html, body').animate({
+          scrollTop: $(".connect").offset().top
+      }, 700);
+    });
+
+    var Wt=$(window).width();
+    if(Wt>600)
+    {
+      $('.button-collapse').sideNav({
+      menuWidth: 400, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      });
+    }
+    else {
+      $('.button-collapse').sideNav({
+      menuWidth: 250, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    });
+    }
+
+
 
 
   pulsate();

@@ -6,6 +6,14 @@
 {
   padding: 0 !important;
 }
+#side-nav{
+  background:rgb(245,245,245);
+}
+#side-nav li a
+{
+  color:black;
+  padding-left: 50px;
+}
 .landing-background
 {
   background: #192f46;
@@ -16,9 +24,10 @@
   height: 100vh;
   overflow: hidden;
 }
-.top-tight-logo
+.click-to-begin
 {
-
+  color:white;
+  text-align: center;
 }
 .landing-logo-holder
 {
@@ -263,10 +272,23 @@
   top: 115vh;
   z-index: 2;
   background: #192f46;
-  min-height: 85vh;
+  min-height: 10px;
 }
 @media(max-width:600px)
 {
+  #side-nav li a
+  {
+    padding-left: 20px;
+    font-size: 110%;
+    height: 95%;
+  }
+  #side-nav{
+    padding-top: 0;
+  }
+  #side-nav .row
+  {
+    margin-top:-5px;
+  }
   .concentric-circle-holder
   {
     cursor: pointer;
@@ -275,7 +297,7 @@
   {
     background-size:1000px 100vh;
     background-position:top;
-    height: 200vh;
+    height: 160vh;
     overflow:hidden;
   }
   #c6
@@ -571,7 +593,7 @@
   }
   .philosophy-img-holder
   {
-    margin-top:10px;
+    margin-top:-6px;
     width: 100%;
     overflow: hidden;
   }
@@ -597,23 +619,3 @@
   }
 }
 /*philosophy ends */
-
-
-/*Misc Code*/
-.side-nav
-{
-  padding-top: 20px;
-}
-.side-nav li a
-{
-  color: rgb(1,143,229);
-  font-size: 120%;
-}
-.side-nav li
-{
-  cursor: pointer;
-}
-.side-nav li:hover
-{
-  background: rgb(245,245,245);
-}

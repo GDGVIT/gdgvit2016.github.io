@@ -9,7 +9,12 @@
 {
   .projects-container
   {
-    height: 141%;
+    height: 400px;
+  }
+  .project-img-text
+  {
+    left:25% !important;
+    font-size:120% !important;
   }
 }
 
@@ -229,6 +234,10 @@ transition: 0.2s all;
 }
 @media(max-width:600px)
 {
+  .project-grid-img
+  {
+    height:100px;
+  }
   .project-skill-holder
   {
     width:93vw;

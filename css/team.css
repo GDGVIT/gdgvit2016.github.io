@@ -23,7 +23,9 @@
 }
 @media(max-width: 700px){
   .team .tl{
-    margin-right: 40%;
+    margin-right: 15%;
+    margin-left: 15%;
+
   }
 }
 .team h3{
@@ -58,7 +60,10 @@ position: absolute;
 }
 .img-responsive
 {
-  display:block;max-width:100%;height:auto;
+  display:block;
+  max-width:100%;
+  height:auto;
+  width: 100%;
   border-radius: 1%;
 }
 .full-size{
@@ -85,4 +90,10 @@ position: absolute;
 .team .landing-logo
 {
   width:100%;
+}
+
+@media(min-width: 1000px){
+.board-name{
+  margin-top: 4%;
+}
 }

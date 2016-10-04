@@ -63,6 +63,8 @@
   border-left: 1px solid #ee8822;
   border-right: 1px solid #ee8822;
   text-align: center;
+  font-family: 'Lato' , sans-serif;
+  font-weight: 100;
 }
 
 .project-grid

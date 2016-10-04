@@ -262,7 +262,7 @@
 }
 #VIT
 {
-  padding-left: 20%;
+  padding-left: 13.5%;
   margin-left:0px;
   border-left: 5px solid white;
 }
@@ -510,6 +510,9 @@
 
 @media(min-width:1920px)
 {
+  #VIT{
+    padding-left: 20%;
+  }
   .philosophy-holder
   {
     font-size: 150%;

@@ -276,6 +276,10 @@
 }
 @media(max-width:600px)
 {
+  #VIT
+  {
+    margin-left:18%;
+  }
   #side-nav li a
   {
     padding-left: 20px;
@@ -332,21 +336,14 @@
 {
   #c6
   {
-    right: 233% !important;
+    right:218% !important;
   }
 }
 @media(min-width:350px) and (max-width:370px)
 {
   #c6
   {
-    right: 202% !important;
-  }
-}
-@media(min-width:350px) and (max-width:370px)
-{
-  #c6
-  {
-    right: 202% !important;
+    right: 188% !important;
   }
 }
 @media(max-width:349px)

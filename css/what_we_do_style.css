@@ -1,8 +1,11 @@
-
+body{
+	font-family: 'Lato' , sans-serif !important;
+	font-weight: 100;
+}
 .what-we-do-image{
-	width: 35%;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	width: 30%;
+	margin-top: 18%;
+	margin-bottom: 10%;
 
 }
 @media(max-width: 330px){
@@ -15,14 +18,43 @@
 		margin-top: 5%;
 	}
 }
+@media(max-width: 1300px) and (min-width: 1000px){
+	.what-we-do-image{
+		margin-top: 24%;
+	}
+}
 .card{
 	height: 44vh;
-	border-radius: 0px;
+	border-radius: 2%;
 	box-shadow: none;
 	background-color: white;
 	margin: 0px;
 /*	margin-bottom: 1px;
 */}
+.skill-cards1{
+	cursor: pointer;
+}
+.skill-cards2{
+	cursor: pointer;
+}
+.skill-cards3{
+	cursor: pointer;
+}
+.skill-cards4{
+	cursor: pointer;
+}
+.skill-cards5{
+	cursor: pointer;
+}
+.skill-cards6{
+	cursor: pointer;
+}
+.skill-cards7{
+	cursor: pointer;
+}
+.skill-cards8{
+	cursor: pointer;
+}
 @media(max-width: 1000px) and (min-width: 550px){
 	.card{
 		height: 30vh;
@@ -48,12 +80,9 @@
 .skills{
 
 	margin: 0;
-  	font-size:170%;
   	border-left: 3px solid #ee8822;
   	border-right: 3px solid #ee8822;
   	text-align: center;
-		font-family: 'Lato' , sans-serif;
-		font-weight: 100;
 }
 @media(max-width: 600px)
 {
@@ -159,6 +188,7 @@
 .skills-heading{
 	font-family: 'Lato' , sans-serif;
 	font-weight: 100;
+	width: 18% !important;
 }
 @media(min-width: 1000px)
 {
@@ -166,6 +196,61 @@
 	margin-left: 5% !important;
 }
 }
+@media(max-width: 650px){
+	.skills-heading{
+		width: 100% !important;
+	}
+}
 .row .col{
 	padding: 0px !important;
+}
+.close{
+	font-size: 40px !important;
+	cursor: pointer;
+}
+@media(max-width: 700px){
+	.close-button1{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button2{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button3{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button4{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button5{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button6{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button7{
+		display: none;
+	}
+}
+@media(max-width: 700px){
+	.close-button8{
+		display: none;
+	}
+}
+.member{
+	background-color: white !important;
+}
+.slider{
+	background-color: white;
 }

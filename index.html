@@ -30,6 +30,7 @@
     {
       cursor: pointer;
     }
+    .
   </style>
 <body>
   <!-- Side Nav -->
@@ -104,7 +105,7 @@
        </div>
     </div>
 
-    <div class="col m6 l6 s12 push-m1 push-l1 landing-text-mobile hide-on-med-and-up">
+    <div class="col m6 l6 s10 push-s1 push-m1 push-l1 landing-text-mobile hide-on-med-and-up">
       <div class="row landing-heading-holder">
         <div class="col m6 l6">
           <div class="landing-brand">
@@ -153,7 +154,7 @@
           </div>
         </div>
         <div class="row">
-          <div class='col m10 l10 s12 push-m2 push-l2'>
+          <div class='col m10 l10 s10 push-s1 push-m2 push-l2'>
             <div class="philosophy-body">
               Our skilled community of developers and designers are always
     working towards building the next big thing.
@@ -166,7 +167,7 @@
           </div>
         </div>
     <div class="row">
-      <div class='col m12 l12 push-m1 push-l1'>
+      <div class='col m12 l12 s10 push-s1 push-m1 push-l1'>
         <div class="philosophy-img-holder">
           <img src="img/devFest.png" class="philosophy-img">
         </div>
@@ -1319,21 +1320,69 @@
 
 
 <script>
-/*  $(document).ready(function()
+  $(document).ready(function()
   {
-      $(".project-clicked").hide();
-
-      $(".project-grid-img-holder").on('click',function()
+      $(".project-clicked1").hide();
+      $(".project-clicked2").hide();
+      $(".project-clicked3").hide();
+      $(".project-clicked4").hide();
+      $(".project-clicked5").hide();
+      
+      $(".project-grid-img-holder1").on('click',function()
       {
-          $(".project-clicked").show();
+          $(".project-clicked1").show();
           $("#project-row").hide();
       });
-      $(".selected-project-back").on("click",function()
+      $(".selected-project-back1").on("click",function()
       {
-        $(".project-clicked").hide();
+        $(".project-clicked1").hide();
         $("#project-row").show();
       });
-  });*/
+
+      $(".project-grid-img-holder2").on('click',function()
+      {
+          $(".project-clicked2").show();
+          $("#project-row").hide();
+      });
+      $(".selected-project-back2").on("click",function()
+      {
+        $(".project-clicked2").hide();
+        $("#project-row").show();
+      });
+
+      $(".project-grid-img-holder3").on('click',function()
+      {
+          $(".project-clicked3").show();
+          $("#project-row").hide();
+      });
+      $(".selected-project-back3").on("click",function()
+      {
+        $(".project-clicked3").hide();
+        $("#project-row").show();
+      });
+
+      $(".project-grid-img-holder4").on('click',function()
+      {
+          $(".project-clicked4").show();
+          $("#project-row").hide();
+      });
+      $(".selected-project-back4").on("click",function()
+      {
+        $(".project-clicked4").hide();
+        $("#project-row").show();
+      });
+
+      $(".project-grid-img-holder5").on('click',function()
+      {
+          $(".project-clicked5").show();
+          $("#project-row").hide();
+      });
+      $(".selected-project-back5").on("click",function()
+      {
+        $(".project-clicked5").hide();
+        $("#project-row").show();
+      });
+  });
 </script>
   <div class="container-fluid projects-container">
     <div class="row" id="project-row">
@@ -1351,39 +1400,39 @@
           <div class="project-grid no-padding no-margin">
             <div class="row">
               <div class="col m4 l4 s6">
-                <div class="project-grid-img-holder">
-                  <img src="img/project_1.png" class="project-grid-img">
-                  <div class="project-img-text">Reader App</div>
+                <div class="project-grid-img-holder1">
+                  <img src="img/myffcs.jpg" class="project-grid-img">
+                  <div class="project-img-text">My FFCS</div>
                 </div>
               </div>
               <div class="col m4 l4 s6">
-                <div class="project-grid-img-holder">
-                  <img src="img/project_2.png" class="project-grid-img">
-                  <div class="project-img-text">Reader App</div>
+                <div class="project-grid-img-holder2">
+                  <img src="img/myvit.jpg" class="project-grid-img">
+                  <div class="project-img-text">My VIT</div>
                 </div>
               </div>
               <div class="col m4 l4 s6">
-                <div class="project-grid-img-holder">
-                  <img src="img/project_3.png" class="project-grid-img">
+                <div class="project-grid-img-holder3">
+                  <img src="img/reliefchennai.jpg" class="project-grid-img">
+                  <div class="project-img-text">Relief Chennai</div>
+                </div>
+              </div>
+              <div class="col m4 l4 s6">
+                <div class="project-grid-img-holder4">
+                  <img src="img/onetouch.jpg" class="project-grid-img">
+                  <div class="project-img-text">Volsbb OneTouch</div>
+                </div>
+              </div>
+              <div class="col m4 l4 s6">
+                <div class="project-grid-img-holder5">
+                  <img src="img/brosource.jpg" class="project-grid-img">
                   <div class="project-img-text">BroSource</div>
                 </div>
               </div>
               <div class="col m4 l4 s6">
                 <div class="project-grid-img-holder">
-                  <img src="img/project_4.png" class="project-grid-img">
-                  <div class="project-img-text">Reader App</div>
-                </div>
-              </div>
-              <div class="col m4 l4 s6">
-                <div class="project-grid-img-holder">
-                  <img src="img/project_5.png" class="project-grid-img">
-                  <div class="project-img-text">Reader App</div>
-                </div>
-              </div>
-              <div class="col m4 l4 s6">
-                <div class="project-grid-img-holder">
-                  <img src="img/project_6.png" class="project-grid-img">
-                  <div class="project-img-text">Reader App</div>
+                  <img src="img/2016.jpg" class="project-grid-img">
+                  <div class="project-img-text">2016</div>
                 </div>
               </div>
             </div>
@@ -1392,19 +1441,291 @@
       </div>
     </div>
 
-<!--    <div class="project-clicked">
+   <div class="project-clicked1">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
-      <div class="landing-logo-holder hide-on-small">
-        <img src="img/gdg.png" class="landing-logo">
-      </div>
       </a>
-      <div class="selected-project-back">
+      <div class="selected-project-back1">
         <img src="img/back.png" class="landing-logo">
       </div>
       <div class="row">
         <div class="col m4 l4" style="padding-left:0;padding-right:0;">
           <div class="select-project-image-holder">
-            <img src="img/project-clicked.png">
+            <img src="img/myffcs.jpg">
+          </div>
+        </div>
+        <div class="col m1 l1 hide-on-small-only">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span><br>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png"><br>
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png"><br>
+            <img id="go-img" class="project-skill-img" src="img/go.png"><br>
+            <img id="python-img" class="project-skill-img" src="img/python.png"><br>
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png"><br>
+          </div>
+        </div>
+        <div class="col m1 l1 s12 hide-on-med-and-up">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png">
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png">
+            <img id="go-img" class="project-skill-img" src="img/go.png">
+            <img id="python-img" class="project-skill-img" src="img/python.png">
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png">
+          </div>
+        </div>
+      <div class="col m6 l6 push-m1">
+        <div class="project-clicked-data">
+        <div class="project-title-holder">
+          <p class="clicked-project-heading">
+            My FFCS
+          </p>
+        </div>
+        <div class="project-lead-holder">
+          <p class="project-lead">
+            Project Leads - Ashwini Purohit , Rishi Raj
+          </p>
+        </div>
+        <div class="project-desc-holder">
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est
+			id lacus consequat eleifend. Maecenas nec faucibus nunc. Nulla ac sapien
+			sed erat luctus volutpat sit amet at purus. Nullam sed volutpat urna, non
+			faucibus mi. Proin a diam sapien. Vestibulum condimentum odio ut nisi
+			tempor ornare. Vestibulum ultricies nisi vitae lectus fermentum, in finibus
+			ex gravida.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="project-resources-holder">
+          <div class="resources">
+            Resources
+            <button class="resources-button">Github</button>
+            <button class="resources-button">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="project-clicked2">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      
+      </a>
+      <div class="selected-project-back2">
+        <img src="img/back.png" class="landing-logo">
+      </div>
+      <div class="row">
+        <div class="col m4 l4" style="padding-left:0;padding-right:0;">
+          <div class="select-project-image-holder" >
+            <img src="img/Myvit.jpg">
+          </div>
+        </div>
+        <div class="col m1 l1 hide-on-small-only">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span><br>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png"><br>
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png"><br>
+            <img id="go-img" class="project-skill-img" src="img/go.png"><br>
+            <img id="python-img" class="project-skill-img" src="img/python.png"><br>
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png"><br>
+          </div>
+        </div>
+        <div class="col m1 l1 s12 hide-on-med-and-up">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png">
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png">
+            <img id="go-img" class="project-skill-img" src="img/go.png">
+            <img id="python-img" class="project-skill-img" src="img/python.png">
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png">
+          </div>
+        </div>
+      <div class="col m6 l6 push-m1">
+        <div class="project-clicked-data">
+        <div class="project-title-holder">
+          <p class="clicked-project-heading">
+            My VIT
+          </p>
+        </div>
+        <div class="project-lead-holder">
+          <p class="project-lead">
+            Project Leads - Ashwini Purohit , Rishi Raj
+          </p>
+        </div>
+        <div class="project-desc-holder">
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est
+			id lacus consequat eleifend. Maecenas nec faucibus nunc. Nulla ac sapien
+			sed erat luctus volutpat sit amet at purus. Nullam sed volutpat urna, non
+			faucibus mi. Proin a diam sapien. Vestibulum condimentum odio ut nisi
+			tempor ornare. Vestibulum ultricies nisi vitae lectus fermentum, in finibus
+			ex gravida.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="project-resources-holder">
+          <div class="resources">
+            Resources
+            <button class="resources-button">Github</button>
+            <button class="resources-button">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="project-clicked3">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      
+      </a>
+      <div class="selected-project-back3">
+        <img src="img/back.png" class="landing-logo">
+      </div>
+      <div class="row">
+        <div class="col m4 l4" style="padding-left:0;padding-right:0;">
+          <div class="select-project-image-holder">
+            <img src="img/reliefchennai.jpg">
+          </div>
+        </div>
+        <div class="col m1 l1 hide-on-small-only">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span><br>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png"><br>
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png"><br>
+            <img id="go-img" class="project-skill-img" src="img/go.png"><br>
+            <img id="python-img" class="project-skill-img" src="img/python.png"><br>
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png"><br>
+          </div>
+        </div>
+        <div class="col m1 l1 s12 hide-on-med-and-up">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png">
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png">
+            <img id="go-img" class="project-skill-img" src="img/go.png">
+            <img id="python-img" class="project-skill-img" src="img/python.png">
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png">
+          </div>
+        </div>
+      <div class="col m6 l6 push-m1">
+        <div class="project-clicked-data">
+        <div class="project-title-holder">
+          <p class="clicked-project-heading">
+            Relief Chennai
+          </p>
+        </div>
+        <div class="project-lead-holder">
+          <p class="project-lead">
+            Project Leads - Ashwini Purohit , Rishi Raj
+          </p>
+        </div>
+        <div class="project-desc-holder">
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est
+id lacus consequat eleifend. Maecenas nec faucibus nunc. Nulla ac sapien
+sed erat luctus volutpat sit amet at purus. Nullam sed volutpat urna, non
+faucibus mi. Proin a diam sapien. Vestibulum condimentum odio ut nisi
+tempor ornare. Vestibulum ultricies nisi vitae lectus fermentum, in finibus
+ex gravida.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="project-resources-holder">
+          <div class="resources">
+            Resources
+            <button class="resources-button">Github</button>
+            <button class="resources-button">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="project-clicked4">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      
+      </a>
+      <div class="selected-project-back4">
+        <img src="img/back.png" class="landing-logo">
+      </div>
+      <div class="row">
+        <div class="col m4 l4" style="padding-left:0;padding-right:0;">
+          <div class="select-project-image-holder">
+            <img src="img/Onetouch.jpg">
+          </div>
+        </div>
+        <div class="col m1 l1 hide-on-small-only">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span><br>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png"><br>
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png"><br>
+            <img id="go-img" class="project-skill-img" src="img/go.png"><br>
+            <img id="python-img" class="project-skill-img" src="img/python.png"><br>
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png"><br>
+          </div>
+        </div>
+        <div class="col m1 l1 s12 hide-on-med-and-up">
+          <div class="project-skill-holder">
+            <img id="photoshop-img" class="project-skill-img" src="img/photoshop.png"><span class="project-skill-name">PHOTOSHOP</span>
+            <img id="jquery-img" class="project-skill-img" src="img/jquery.png">
+            <img id="ajs-img" class="project-skill-img" src="img/ajs.png">
+            <img id="go-img" class="project-skill-img" src="img/go.png">
+            <img id="python-img" class="project-skill-img" src="img/python.png">
+            <img id="mdb-img" class="project-skill-img" src="img/mdb.png">
+          </div>
+        </div>
+      <div class="col m6 l6 push-m1">
+        <div class="project-clicked-data">
+        <div class="project-title-holder">
+          <p class="clicked-project-heading">
+            Volbb OneTouch
+          </p>
+        </div>
+        <div class="project-lead-holder">
+          <p class="project-lead">
+            Project Leads - Ashwini Purohit , Rishi Raj
+          </p>
+        </div>
+        <div class="project-desc-holder">
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est
+id lacus consequat eleifend. Maecenas nec faucibus nunc. Nulla ac sapien
+sed erat luctus volutpat sit amet at purus. Nullam sed volutpat urna, non
+faucibus mi. Proin a diam sapien. Vestibulum condimentum odio ut nisi
+tempor ornare. Vestibulum ultricies nisi vitae lectus fermentum, in finibus
+ex gravida.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="project-resources-holder">
+          <div class="resources">
+            Resources
+            <button class="resources-button">Github</button>
+            <button class="resources-button">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="project-clicked5">
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      
+      </a>
+      <div class="selected-project-back5">
+        <img src="img/back.png" class="landing-logo">
+      </div>
+      <div class="row">
+        <div class="col m4 l4" style="padding-left:0;padding-right:0;">
+          <div class="select-project-image-holder">
+            <img src="img/Brosource.jpg">
           </div>
         </div>
         <div class="col m1 l1 hide-on-small-only">
@@ -1461,7 +1782,7 @@ ex gravida.
       </div>
     </div>
     </div>
-  </div> -->
+  </div>
 
   </div>
 <div class="container-fluid">
@@ -1495,7 +1816,7 @@ ex gravida.
     </div>
     <div class="col m2 l2 s12"><img src="img/rishiraj.jpg" class="img-responsive"/></div>
     <div class="col m2 l2 s12 board-name"><h3>Rishi Raj</h3>
-    <h5>Vice President(Management)</h5>
+    <h5>Vice President(Technical)</h5>
     <div class="s">
     <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>
     <a href="#"><img src="img/lin.png" class="img-circle" width="25" height="25"/></a>
@@ -1564,7 +1885,7 @@ ex gravida.
     </div>
     <div class="row">
   	<div class="col m2 l2 s12"><img src="img/shimona.jpg" class="img-responsive"/></div>
-    <div class="col m2 l2 s12 board-name"><h3>Shimona Borida</h3>
+    <div class="col m2 l2 s12 board-name"><h3>Shimona Bordia</h3>
     <h5>WTM Lead</h5>
     <div class="s">
     <a href="#"><img src="img/fb.png" class="img-circle" width="25" height="25"/></a>

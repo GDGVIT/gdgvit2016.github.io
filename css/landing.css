@@ -120,6 +120,17 @@
     font-size: 70%;
   }
 }
+@media(min-width: 1400px)
+{
+  .landing-brand .heading
+  {
+    font-size: 250% !important;
+  }
+  .landing-brand .subheading{
+    font-size: 
+  }
+
+}
 .concentric-circle
 {
   position: relative;
@@ -621,3 +632,10 @@
   }
 }
 /*philosophy ends */
+@media(max-width: 600px)
+{
+.landing-text-mobile{
+  padding-right: 10px !important !important;
+  padding-left: 10px !important !important;
+}
+}

@@ -9,12 +9,28 @@
 {
   .projects-container
   {
-    height: 400px;
+    height: 120vh;
   }
   .project-img-text
   {
     left:25% !important;
     font-size:120% !important;
+  }
+}
+
+@media(max-width:430px)
+{
+  .projects-container
+  {
+    height: 130vh !important;
+  }
+  .project-img-text
+  {
+    left:25% !important;
+    font-size:120% !important;
+  }
+  .project-grid-img{
+    height: 35vh !important;
   }
 }
 
@@ -26,7 +42,7 @@
 {
   margin: 0 !important;
 }
-#project-row .landing-logo-holder, .project-clicked .landing-logo-holder
+#project-row .landing-logo-holder, .project-clicked1 .landing-logo-holder
 {
   position: absolute;
   background: white;
@@ -42,7 +58,91 @@
   z-index: 10;
 
 }
-#project-row .landing-logo, .project-clicked .landing-logo
+#project-row .landing-logo, .project-clicked1 .landing-logo
+{
+  width:100%;
+}
+
+#project-row .landing-logo-holder, .project-clicked2 .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#project-row .landing-logo, .project-clicked2 .landing-logo
+{
+  width:100%;
+}
+
+#project-row .landing-logo-holder, .project-clicked3 .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#project-row .landing-logo, .project-clicked4 .landing-logo
+{
+  width:100%;
+}
+
+#project-row .landing-logo-holder, .project-clicked4 .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#project-row .landing-logo, .project-clicked4 .landing-logo
+{
+  width:100%;
+}
+
+#project-row .landing-logo-holder, .project-clicked5 .landing-logo-holder
+{
+  position: absolute;
+  background: white;
+  padding: 1%;
+  padding-top: 1.2%;
+  padding-bottom: 0.7%;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-top:20px;
+  right: 20px;
+  z-index: 10;
+
+}
+#project-row .landing-logo, .project-clicked5 .landing-logo
 {
   width:100%;
 }
@@ -87,8 +187,9 @@
   width: 100%;
   margin-bottom: -5.2px;
   opacity: 0.88;
+  cursor: pointer;
 }
-.project-grid-img-holder
+.project-grid-img-holder1 , .project-grid-img-holder2, .project-grid-img-holder3, .project-grid-img-holder4, .project-grid-img-holder5
 {
   margin: 0;
   padding: 0;
@@ -108,16 +209,48 @@
   cursor: pointer;
   font-family: 'Lato', sans-serif;
 }
-.project-grid-img-holder:hover .project-grid-img
+.project-grid-img-holder1:hover .project-grid-img
 {
     transition: all 0.2s;
     opacity: 0.12;
 }
-.project-grid-img-holder:hover .project-img-text
+.project-grid-img-holder1:hover .project-img-text
 {
   display: block;
 }
-
+.project-grid-img-holder2:hover .project-grid-img
+{
+    transition: all 0.2s;
+    opacity: 0.12;
+}
+.project-grid-img-holder2:hover .project-img-text
+{
+  display: block;
+}.project-grid-img-holder3:hover .project-grid-img
+{
+    transition: all 0.2s;
+    opacity: 0.12;
+}
+.project-grid-img-holder3:hover .project-img-text
+{
+  display: block;
+}.project-grid-img-holder4:hover .project-grid-img
+{
+    transition: all 0.2s;
+    opacity: 0.12;
+}
+.project-grid-img-holder4:hover .project-img-text
+{
+  display: block;
+}.project-grid-img-holder5:hover .project-grid-img
+{
+    transition: all 0.2s;
+    opacity: 0.12;
+}
+.project-grid-img-holder5:hover .project-img-text
+{
+  display: block;
+}
 @media(min-width:1900px)
 {
   .project-heading p
@@ -129,7 +262,63 @@
 {
   position: relative;
 }
-.selected-project-back
+.selected-project-back1
+{
+  position: absolute;
+  background: white;
+  padding:0.8%;
+  padding-top:0.8%;
+  padding-bottom: 0.2%;
+  border-radius: 100%;
+  margin-top: 20px;
+  right: 110px;
+  z-index: 10;
+  width: 4.5%;
+  cursor: pointer;
+}
+.selected-project-back2
+{
+  position: absolute;
+  background: white;
+  padding:0.8%;
+  padding-top:0.8%;
+  padding-bottom: 0.2%;
+  border-radius: 100%;
+  margin-top: 20px;
+  right: 110px;
+  z-index: 10;
+  width: 4.5%;
+  cursor: pointer;
+}
+.selected-project-back3
+{
+  position: absolute;
+  background: white;
+  padding:0.8%;
+  padding-top:0.8%;
+  padding-bottom: 0.2%;
+  border-radius: 100%;
+  margin-top: 20px;
+  right: 110px;
+  z-index: 10;
+  width: 4.5%;
+  cursor: pointer;
+}
+.selected-project-back4
+{
+  position: absolute;
+  background: white;
+  padding:0.8%;
+  padding-top:0.8%;
+  padding-bottom: 0.2%;
+  border-radius: 100%;
+  margin-top: 20px;
+  right: 110px;
+  z-index: 10;
+  width: 4.5%;
+  cursor: pointer;
+}
+.selected-project-back5
 {
   position: absolute;
   background: white;
@@ -149,8 +338,21 @@
 }
 .select-project-image-holder img
 {
+/*  width: 100%;
+*/  height: 100vh;
+}
+@media(min-width: 1000px){
+  .select-project-image-holder img{
+    width: 100%;
+  }
+}
+@media(max-width: 600px){
+.select-project-image-holder img{
+  height: auto;
   width: 100%;
-  height: 100vh;
+  padding-left: 20%;
+  padding-right: 20%;
+}
 }
 .project-skill-holder
 {
@@ -164,7 +366,7 @@
 .project-skill-img
 {
 width:50px;
-margin-left: 8px;
+margin-left: 30%  ;
 margin-top:6vh;
 opacity: 0.4;
 transition: 0.2s all;
@@ -234,11 +436,22 @@ transition: 0.2s all;
 {
   z-index: 1 !important;
 }
+.select-project-img{
+  background-image: url('../img/myffcs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
 @media(max-width:600px)
 {
   .project-grid-img
   {
-    height:100px;
+    height:30vh;
+  }
+  .project-clicked-data{
+    padding-left: 5%;
   }
   .project-skill-holder
   {
@@ -271,7 +484,7 @@ transition: 0.2s all;
   {
     margin-top: -40px !important;
   }
-  .selected-project-back
+  .selected-project-back1, .selected-project-back2, .selected-project-back3, .selected-project-back4, .selected-project-back5 
   {
     padding:0.8%;
     padding-top:0.8%;
@@ -303,7 +516,7 @@ transition: 0.2s all;
   {
     width: 70px;
   }
-  .selected-project-back
+  .selected-project-back1, .selected-project-back2, .selected-project-back3, .selected-project-back4, .selected-project-back5
   {
     right: 130px;
   }

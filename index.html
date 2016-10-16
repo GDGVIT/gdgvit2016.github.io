@@ -14,7 +14,25 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_Xmdxj9qAHIEvMS0oYHTBL");
+       })();
+
+       function contactUs(){
+         var fname = document.getElementById('first_name').value;
+         var lname = document.getElementById('last_name').value;
+         var email = document.getElementById('email').value;
+         var msg = document.getElementById('textarea1').value;
+         alert("Sending Email");
+         emailjs.send("gmail","template_nLkm5TKg",{fname: fname, lname: lname, email: email, message:msg}).then(function(response) {
+           console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+         }, function(err) {
+           console.log("FAILED. error=", err);
+         });
+       }
+    </script>
 	<link rel="shortcut icon" href="img/favicon.jpg" />
 	<title>GDG VIT Vellore | Home</title>
 
@@ -30,7 +48,6 @@
     {
       cursor: pointer;
     }
-    .
   </style>
 <body>
   <!-- Side Nav -->
@@ -355,7 +372,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 						</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Shubhodeep.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Shubhodeep Mukherjee</span>
@@ -399,7 +416,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 						</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Vishwajeet.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Vishwajeetsinh Jadeja</span>
@@ -443,7 +460,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Shubham.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Shubham Bhardwaj</span>
@@ -468,7 +485,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Rishav.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Rishav Raj</span>
@@ -476,7 +493,7 @@
 					</div>
 			</div>
 			</li>
-			
+
 		   </ul>
 		  </div>
 
@@ -517,7 +534,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Bhatter.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Siddhant Bhatter</span>
@@ -566,7 +583,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Sai.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Sai Sreekar</span>
@@ -583,14 +600,14 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Rajat.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Rajat Mukati</span>
 						</div>
 					</div>
 			</div>
-			
+
 			</li>
 		   </ul>
 		  </div>
@@ -632,7 +649,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/shuvam.png" class="circular">
 							<br>
 							<span class="card-title black-text">Shuvam Ghosh</span>
@@ -676,7 +693,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Aravind.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Aravind Raj C.</span>
@@ -725,7 +742,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Madhur.JPG" class="circular">
 							<br>
 							<span class="card-title black-text">Madhur Satija</span>
@@ -774,7 +791,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Harshit.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Harshit Satija</span>
@@ -818,7 +835,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/RishabTaneja.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Rishab Taneja</span>
@@ -834,7 +851,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/Vinish.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Vinish Makkar</span>
@@ -873,7 +890,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/RohanPrasad.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Rohan Prasad</span>
@@ -921,7 +938,7 @@
 								<i style="float:right;" class="material-icons close">close</i>
 							</div>
 						<div class="card-content center-align">
-							
+
 							<img src="members/RohanPrasad.jpg" class="circular">
 							<br>
 							<span class="card-title black-text">Rohan Prasad</span>
@@ -983,7 +1000,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider1').is(':visible')){
        	$('.slider1').fadeOut(0);
     	}
@@ -1027,7 +1044,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider2').is(':visible')){
        	$('.slider2').fadeOut(0);
     	}
@@ -1072,7 +1089,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider3').is(':visible')){
        	$('.slider3').fadeOut(0);
     	}
@@ -1115,7 +1132,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider4').is(':visible')){
        	$('.slider4').fadeOut(0);
     	}
@@ -1158,7 +1175,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider5').is(':visible')){
        	$('.slider5').fadeOut(0);
     	}
@@ -1202,7 +1219,7 @@
         $(".skill-cards1").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider6').is(':visible')){
        	$('.slider6').fadeOut(0);
     	}
@@ -1245,7 +1262,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards1").toggleClass("none");
         $(".skill-cards8").toggleClass("none");
-        
+
     	if($('.slider7').is(':visible')){
        	$('.slider7').fadeOut(0);
     	}
@@ -1288,7 +1305,7 @@
         $(".skill-cards6").toggleClass("none");
         $(".skill-cards7").toggleClass("none");
         $(".skill-cards1").toggleClass("none");
-        
+
     	if($('.slider8').is(':visible')){
        	$('.slider8').fadeOut(0);
     	}
@@ -1327,7 +1344,7 @@
       $(".project-clicked3").hide();
       $(".project-clicked4").hide();
       $(".project-clicked5").hide();
-      
+
       $(".project-grid-img-holder1").on('click',function()
       {
           $(".project-clicked1").show();
@@ -1511,7 +1528,7 @@
 
     <div class="project-clicked2">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
-      
+
       </a>
       <div class="selected-project-back2">
         <img src="img/back.png" class="landing-logo">
@@ -1580,7 +1597,7 @@
 
     <div class="project-clicked3">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
-      
+
       </a>
       <div class="selected-project-back3">
         <img src="img/back.png" class="landing-logo">
@@ -1648,7 +1665,7 @@ ex gravida.
 
     <div class="project-clicked4">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
-      
+
       </a>
       <div class="selected-project-back4">
         <img src="img/back.png" class="landing-logo">
@@ -1717,7 +1734,7 @@ ex gravida.
 
     <div class="project-clicked5">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
-      
+
       </a>
       <div class="selected-project-back5">
         <img src="img/back.png" class="landing-logo">
@@ -1963,7 +1980,7 @@ ex gravida.
     	</div>
     	<br>
 
-    	<form class="m12 contact-form">
+    	<div class="m12 contact-form">
     		<div class="row">
     		    <div class="input-field col m12 s12">
           		<input  id="first_name" type="text" class="validate">
@@ -1989,7 +2006,7 @@ ex gravida.
         		</div>
     		</div>
     		<div class="row">
-  				<button class="btn waves-effect waves-light" type="submit" name="action"><b>Submit</b>
+  				<button  class="btn waves-effect waves-light" onclick="contactUs();" name="action"><b>Submit</b>
   				</button>
     		</div>
     		<script type="text/javascript">
@@ -2004,7 +2021,7 @@ ex gravida.
 
   );
     		</script>
-    	</form>
+    	</div>
     	</div>
     	</div>
     	<br>

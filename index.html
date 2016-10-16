@@ -25,7 +25,6 @@
          var lname = document.getElementById('last_name').value;
          var email = document.getElementById('email').value;
          var msg = document.getElementById('textarea1').value;
-         alert("Sending Email");
          emailjs.send("gmail","template_nLkm5TKg",{fname: fname, lname: lname, email: email, message:msg}).then(function(response) {
            console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
          }, function(err) {

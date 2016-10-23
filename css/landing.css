@@ -283,7 +283,6 @@
   bottom:0;
   z-index: 2;
   background: #192f46;
-  min-height: 10px;
 }
 @media(max-width:600px)
 {
@@ -312,7 +311,7 @@
   {
     background-size:cover;
     background-position:60% 0;
-    height: 900px;
+    height: 950px;
     overflow:hidden;
     position: relative;
   }
@@ -336,7 +335,7 @@
   }
   .landing-heading-holder
   {
-    margin-bottom: 30px !important;
+    padding-top: 40px !important;
   }
   .landing-content-holder
   {
@@ -633,10 +632,3 @@
   }
 }
 /*philosophy ends */
-@media(max-width: 600px)
-{
-.landing-text-mobile{
-  padding-right: 10px !important !important;
-  padding-left: 10px !important !important;
-}
-}

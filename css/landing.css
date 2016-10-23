@@ -127,7 +127,7 @@
     font-size: 250% !important;
   }
   .landing-brand .subheading{
-    font-size: 
+    font-size:
   }
 
 }
@@ -280,7 +280,7 @@
 .landing-text-mobile
 {
   position: absolute !important;
-  top: 115vh;
+  bottom:0;
   z-index: 2;
   background: #192f46;
   min-height: 10px;
@@ -310,10 +310,11 @@
   }
   .landing-background
   {
-    background-size:1000px 100vh;
-    background-position:top;
-    height: 160vh;
+    background-size:cover;
+    background-position:60% 0;
+    height: 900px;
     overflow:hidden;
+    position: relative;
   }
   #c6
   {

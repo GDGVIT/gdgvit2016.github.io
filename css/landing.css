@@ -315,6 +315,12 @@
     overflow:hidden;
     position: relative;
   }
+  @media(max-width:600px) and (min-height:700px){
+    .landing-background
+    {
+      height: 1200px;
+    }
+  }
   #c6
   {
     right: 233% !important;
@@ -343,14 +349,35 @@
     font-size: 110% !important;
   }
 }
-@media(min-width:375px) and (max-width:415px)
+@media(min-width:415px) and (max-width:600px)
 {
   #c6
   {
-    right:218% !important;
+    right:150% !important;
   }
 }
-@media(min-width:350px) and (max-width:370px)
+@media(min-width:400px) and (max-width:414px)
+{
+  #c6
+  {
+    right:217% !important;
+  }
+}
+@media(min-width:375px) and (max-width:400px)
+{
+  #c6
+  {
+    right:175% !important;
+  }
+}
+@media(min-width:360px) and (max-width:374px)
+{
+  #c6
+  {
+    right: 187% !important;
+  }
+}
+@media(min-width:350px) and (max-width:359px)
 {
   #c6
   {
@@ -362,6 +389,12 @@
   #c6
   {
     right: 192% !important;
+  }
+}
+@media(max-width:320px){
+  #c6
+  {
+    right: 214% !important;
   }
 }
 /* philosophy page begins */

@@ -9,7 +9,7 @@
 {
   .projects-container
   {
-    height: 120vh;
+    height: 110vh;
   }
   .project-img-text
   {
@@ -18,11 +18,11 @@
   }
 }
 
-@media(max-width:430px)
+@media(max-width:400px)
 {
   .projects-container
   {
-    height: 130vh !important;
+    height: 120vh !important;
   }
   .project-img-text
   {
@@ -30,10 +30,14 @@
     font-size:120% !important;
   }
   .project-grid-img{
-    height: 35vh !important;
+    height: 27vh !important;
   }
 }
-
+@media(max-width: 430px) and (min-width: 400px){
+  .project-grid-img{
+    height: 27vh !important;
+  }
+}
 .project
 {
   padding-top: 2%;
@@ -196,6 +200,13 @@
   cursor: pointer;
   position: relative;
 }
+@media(max-width: 600px){
+  .project-grid-img-holder1 , .project-grid-img-holder2, .project-grid-img-holder3, .project-grid-img-holder4, .project-grid-img-holder5
+  {
+    height: 27vh;
+  }
+
+}
 .project-img-text
 {
   top:40%;
@@ -350,8 +361,8 @@
 .select-project-image-holder img{
   height: auto;
   width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 }
 .project-skill-holder

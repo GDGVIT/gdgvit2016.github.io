@@ -1350,56 +1350,83 @@
 
       $(".project-grid-img-holder1").on('click',function()
       {
+      	if($(window).width()<600)
+      		{
+      			$(".projects-container").css("height","130vh");
+      		}
           $(".project-clicked1").show();
           $("#project-row").hide();
       });
       $(".selected-project-back1").on("click",function()
       {
+
         $(".project-clicked1").hide();
+        $(".projects-container").css("height","100vh");
         $("#project-row").show();
+
       });
 
       $(".project-grid-img-holder2").on('click',function()
       {
+      	if($(window).width()<600)
+      		{
+      			$(".projects-container").css("height","130vh");
+      		}
           $(".project-clicked2").show();
           $("#project-row").hide();
       });
       $(".selected-project-back2").on("click",function()
       {
         $(".project-clicked2").hide();
+        $(".projects-container").css("height","100vh");
         $("#project-row").show();
       });
 
       $(".project-grid-img-holder3").on('click',function()
       {
+      	if($(window).width()<600)
+      		{
+      			$(".projects-container").css("height","130vh");
+      		}
           $(".project-clicked3").show();
           $("#project-row").hide();
       });
       $(".selected-project-back3").on("click",function()
       {
         $(".project-clicked3").hide();
+        $(".projects-container").css("height","100vh");
         $("#project-row").show();
       });
 
       $(".project-grid-img-holder4").on('click',function()
       {
+      	if($(window).width()<600)
+      		{
+      			$(".projects-container").css("height","130vh");
+      		}
           $(".project-clicked4").show();
           $("#project-row").hide();
       });
       $(".selected-project-back4").on("click",function()
       {
         $(".project-clicked4").hide();
+        $(".projects-container").css("height","100vh");
         $("#project-row").show();
       });
 
       $(".project-grid-img-holder5").on('click',function()
       {
+      		if($(window).width()<600)
+      		{
+      			$(".projects-container").css("height","130vh");
+      		}
           $(".project-clicked5").show();
           $("#project-row").hide();
       });
       $(".selected-project-back5").on("click",function()
       {
         $(".project-clicked5").hide();
+        $(".projects-container").css("height","100vh");
         $("#project-row").show();
       });
   });

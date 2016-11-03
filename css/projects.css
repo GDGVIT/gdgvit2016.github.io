@@ -9,7 +9,7 @@
 {
   .projects-container
   {
-    height: 115vh;
+    height: 100vh;
   }
   .project-img-text
   {
@@ -22,7 +22,7 @@
 {
   .projects-container
   {
-    height: 120vh !important;
+    height: 100vh;
   }
   .project-img-text
   {
